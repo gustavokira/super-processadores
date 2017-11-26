@@ -1,0 +1,32 @@
+[
+	{
+		"nome":"AMD Ryzen 7 PRO 1700X",
+		"grupo":"A1",
+		"núcleos":8,
+		"cache":"30mb",
+		"tdp":"95 W",
+		"ano":"1999",
+		"clock":"100 MHz",
+		"linkimg":"img/ryzen.jpg"
+	},
+	{
+		"nome":"AMD A10-9700E",
+		"grupo":"A1",
+		"núcleos":8,
+		"cache":"30mb",
+		"tdp":"95 W",
+		"ano":"1999",
+		"clock":"100 MHz",
+		"linkimg":"img/amd-a.jpg"
+	},
+	{
+		"nome":"Celeron 3900",
+		"grupo":"A1",
+		"núcleos":8,
+		"cache":"30mb",
+		"tdp":"95 W",
+		"ano":"1999",
+		"clock":"100 MHz",
+		"linkimg":"img/celeron.jpg"
+	}
+]
