@@ -4,11 +4,16 @@
 
 
 	function carregarTemplate(atributos){
+		
 		var anticache = Math.floor(Date.now() / 1000);
 		$.get('carta.html?v='+anticache,carregarJsonCartas.bind({atributos:atributos}));
 	}
 
-	function carregarJsonCartas(template){		
+	function carregarJsonCartas(template){
+		console.log(template);
+		if(typeof template === 'object'){
+			template = new XMLSerializer().serializeToString(template.documentElement);
+		}
 		$.getJSON("data/cartas.json",tratarJson.bind(
 			{
 				template:template,

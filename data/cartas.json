@@ -2,7 +2,7 @@
 	{
 		"nome":"AMD Ryzen 7 PRO 1700X",
 		"grupo":"A1",
-		"núcleos":8,
+		"nucleos":8,
 		"cache":"30mb",
 		"tdp":"95 W",
 		"ano":"1999",
@@ -12,7 +12,7 @@
 	{
 		"nome":"AMD A10-9700E",
 		"grupo":"A1",
-		"núcleos":8,
+		"nucleos":8,
 		"cache":"30mb",
 		"tdp":"95 W",
 		"ano":"1999",
@@ -22,7 +22,7 @@
 	{
 		"nome":"Celeron 3900",
 		"grupo":"A1",
-		"núcleos":8,
+		"nucleos":8,
 		"cache":"30mb",
 		"tdp":"95 W",
 		"ano":"1999",
